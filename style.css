@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    background-color: #EDEDED;
+}
+
+#topBar{
+    width: 100%;
+    height: 52px;
+    border-top: 5px solid #222222;
+    border-bottom: 5px solid #222222;
+    background-image: url("images/logo_home.png");
+    background-repeat: no-repeat;
+    background-position: 2px 2px;
+    background-color: #222222;
+}
+
+.row{
+    display: flex;
+    min-width: 800px;
+    max-width: 1200px;
+    height: 320px;
+    margin: 10px auto 10px auto;
+}
+
+.wideBox{
+    display: flex;
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+
+.wideBox h1{
+    color: #333333;
+}
+
+.wideBox p{
+    color: #888888;
+}
+
+.wideBoxContent, .wideBoxImage{
+    margin: 0;
+    width: 50%;
+}
+
+.wideBoxImage img{
+    float: right;
+}
+
+.triBox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 33%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+
+.triBox:first-child{
+    margin-left: 0;
+}
+
+.triBox:last-child{
+    margin-right: 0;
+}
+
+.triBoxImage{
+    height: 45%;
+    overflow: hidden;
+}
+
+.triBoxImage img{
+    max-width: 100%;
+}
+
+.triBoxContent{
+}
+
+.triBoxContent p{
+    color: #888888;
+    margin: 5px 5px 0 0;
+}
+
+.triBoxContent h3{
+    color: #333333;
+    margin: 5px 5px 0 0;
+}
+
+#footer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 30px;
+    color: #FFFFFF;
+    background-color: #222222;
+}
+
+#footer p{
+    position: relative;
+    bottom: 10px;
+    text-align: center;
+}
