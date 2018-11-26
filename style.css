@@ -43,16 +43,11 @@ p a:hover {
   color: inherit; }
 
 #topBar {
-  width: 100%;
-  height: 52px;
-  border-top: 5px solid #3a332e;
-  border-bottom: 5px solid #3a332e;
-  background-image: url("images/logo_home.png");
-  background-repeat: no-repeat;
-  background-position: 2px 2px;
-  background-color: #3a332e; }
+  background-color: #3a332e;
+  height: 60px; }
 
-#logo {
+#topBar img {
+  margin: 5px;
   background-color: #d1854b; }
 
 .row {
